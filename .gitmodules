@@ -1,0 +1,6 @@
+[submodule "themes/hugo-brewm"]
+	path = themes/hugo-brewm
+	url = https://github.com/foxihd/hugo-brewm.git
+[submodule "themes/hextra"]
+	path = themes/hextra
+	url = https://github.com/imfing/hextra.git

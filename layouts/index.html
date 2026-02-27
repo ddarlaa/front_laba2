@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="mx-auto flex max-w-screen-xl">
+  {{ partial "sidebar.html" (dict "context" .) }}
+  <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+    <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
+      <h1 class="text-center mt-8">Последние записи в блоге</h1>
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+        {{ range first 6 (where .Site.RegularPages "Section" "blog") }}
+          <a href="{{ .RelPermalink }}" class="block p-4 border rounded hover:shadow">
+            <h2 class="text-xl">{{ .Title }}</h2>
+            <p class="text-sm text-gray-600">{{ .Date.Format "02 Jan 2006" }}</p>
+            <p>{{ .Summary }}</p>
+          </a>
+        {{ end }}
+      </div>
+      <div class="text-center mt-8">
+        <a href="/blog/" class="btn">Все записи</a>
+      </div>
+    </main>
+  </article>
+</div>
+{{ end }}
