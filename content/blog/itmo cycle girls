@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITMO CYCLE GIRLS</title>
+    <!-- Bootstrap 5 CSS (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Font Awesome 6 (бесплатные иконки) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+            font-family: 'Inter', sans-serif;
+        }
+        :root {
+            --primary: #cd55d1;
+            --primary-dark: #be6fb7;
+        }
+        .navbar {
+            background: rgba(255,255,255,0.9) !important;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+        .navbar.scrolled {
+            background: #fff !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(205,85,209,0.3);
+        }
+        footer a {
+            text-decoration: none;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: rgba(205,85,209,0.1);
+            color: var(--primary);
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: var(--primary);
+        }
+        .form-control {
+            border-radius: 30px;
+            transition: 0.2s;
+        }
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.25rem rgba(205,85,209,0.25);
+        }
+        .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 1rem 2rem rgba(0,0,0,0.1) !important;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        .info-block {
+            text-align: center;
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            background: #fff;
+            transition: all 0.3s;
+        }
+        .info-block:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+        }
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: 0.6s ease-out;
+        }
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Навбар -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-bicycle"></i> ITMO CYCLE GIRLS
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Отступы -->
+<div class="mb-5"></div>
+<div class="mt-5"></div>
+
+<!-- Jumbotron -->
+<div class="container mt-4">
+    <div class="jumbotron-custom text-center">
+        <h1 class="display-4">Добро пожаловать!</h1>
+        <h2 class="lead">Женский вело-клуб — место, где ты найдешь подруг, вдохновение и новые маршруты</h2>
+        <hr class="my-4">
+        <p>Присоединяйся к нам и открой для себя свободу двух колес!</p>
+        <a href="#bottom-section" class="btn btn-primary btn-lg">Связаться с нами</a>
+    </div>
+</div>
+
+<div class="mx-2 my-5"></div>
+
+<!-- Карусель -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Сервис</h5>
+        <p>Помощь в выборе велосипеда, мелкий ремонт, советы по экипировке.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1494375364506-901512970ad4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Маршруты</h5>
+        <p>Прокладываем безопасные и живописные маршруты по городу и загородным трассам.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Сообщество</h5>
+        <p>Дружеская атмосфера, совместные выезды, мастер-классы и поддержка.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Три блока информации (новые) -->
+<div class="container my-5">
+    <div class="row g-4">
+        <!-- Блок 1: Тренировки -->
+        <div class="col-md-4 order-md-1 order-2 fade-up">
+            <div class="info-block">
+                <i class="fas fa-heartbeat fa-3x feature-icon"></i>
+                <h3>Тренировки</h3>
+                <p>Регулярные групповые занятия с профессиональными инструкторами. Развиваем выносливость, технику и уверенность на дороге.</p>
+            </div>
+        </div>
+        <!-- Блок 2: События -->
+        <div class="col-md-4 order-md-2 order-3 fade-up">
+            <div class="info-block">
+                <i class="fas fa-calendar-alt fa-3x feature-icon"></i>
+                <h3>События</h3>
+                <p>Вечеринки, велопробеги, благотворительные акции и фестивали. Стань частью яркой жизни клуба!</p>
+            </div>
+        </div>
+        <!-- Блок 3: Экипировка -->
+        <div class="col-md-4 order-md-3 order-1 fade-up">
+            <div class="info-block">
+                <i class="fas fa-tshirt fa-3x feature-icon"></i>
+                <h3>Экипировка</h3>
+                <p>Скидки и консультации по выбору велоформы, шлемов и аксессуаров. Вместе подберем идеальный комплект.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Отступ -->
+<div class="mb-5"></div>
+
+<!-- Две колонки: FAQ и форма -->
+<section id="bottom-section" class="container my-5">
+    <div class="row g-4 align-items-stretch">
+        <!-- Левая колонка: FAQ -->
+        <div class="col-md-6">
+            <h2 class="text-center mb-4">Часто задаваемые вопросы</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                            <i class="fas fa-user-plus me-2"></i> Как вступить в клуб?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Просто заполните форму обратной связи справа или напишите нам в соцсетях. Мы свяжемся с вами, расскажем о расписании и пригласим на первую встречу.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                            <i class="fas fa-bicycle me-2"></i> Нужен ли мне собственный велосипед?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Не обязательно. Вы можете приехать на своём, а если его нет — мы поможем подобрать аренду или посоветуем недорогие варианты для старта. Главное — желание кататься!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                            <i class="fas fa-chart-line me-2"></i> Есть ли требования к уровню подготовки?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Абсолютно никаких! Мы принимаем девушек с любым опытом: от новичков, которые впервые сели на велосипед, до опытных райдеров. У нас есть группы для разного уровня.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Правая колонка: форма обратной связи -->
+        <div class="col-md-6 d-flex align-items-center">
+            <div class="card shadow-sm w-100">
+                <div class="card-body p-4">
+                    <h3 class="card-title text-center mb-4">Напишите нам</h3>
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Сообщение</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-primary" id="submitBtn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Toast контейнер -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="successToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="5000">
+        <div class="toast-header">
+            <i class="fas fa-bicycle me-2" style="color: var(--primary);"></i>
+            <strong class="me-auto">ITMO CYCLE GIRLS</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Благодарим за заявку! Скоро мы с вами свяжемся.
+        </div>
+    </div>
+</div>
+
+<!-- Нижний колонтитул -->
+<footer class="bg-dark text-white py-4 d-none d-md-block mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Контакты</h5>
+                <p><i class="fas fa-phone-alt"></i> +7 (999) 123-45-67</p>
+                <p><i class="fas fa-envelope"></i> info@womensbikeclub.ru</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Адрес</h5>
+                <p><i class="fas fa-map-marker-alt"></i> г. Санкт-Петербург, ул. Ломоносова, д. 9</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Мы в соцсетях</h5>
+                <a href="#" class="text-white me-2"><i class="fab fa-vk"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-telegram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const toastElement = document.getElementById('successToast');
+    let toast;
+
+    if (toastElement) {
+        toast = new bootstrap.Toast(toastElement);
+    }
+
+    submitBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+
+        if (name === '' || email === '') {
+            alert('Пожалуйста, заполните имя и email.');
+            return;
+        }
+
+        if (toast) {
+            toast.show();
+        } else {
+            alert('Благодарим за заявку!');
+        }
+
+        form.reset();
+    });
+
+    window.addEventListener('scroll', () => {
+        document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    const fadeElements = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.2 });
+    fadeElements.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
