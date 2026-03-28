@@ -1,11 +1,8 @@
 ---
 title: 'Публикации'
 ---
----
-title: "ITMO CYCLE GIRLS — женский вело-клуб"
-date: 2025-03-28
+title: 'ITMO CYCLE GIRLS — женский вело-клуб'
 description: "Сайт с каруселью, аккордеоном и формой обратной связи"
-tags: ["Bootstrap", "велоспорт", "проект"]
 draft: false
 ---
 
