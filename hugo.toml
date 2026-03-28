@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ddarlaa.github.io/front_laba2/'
 languageCode = 'ru-ru'
 title = 'Тестовый сервер Дарлы на Hugo'
 theme = 'hextra'
