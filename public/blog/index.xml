@@ -1,12 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Тестовый сервер Дарлы на Hugo – Блог</title>
-    <link>http://localhost:59517/front_laba2/blog/</link>
+    <link>http://localhost:1313/front_laba2/blog/</link>
     <description>Recent content in Блог on Тестовый сервер Дарлы на Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
+    <lastBuildDate>Thu, 02 Apr 2026 16:14:11 +0300</lastBuildDate>
     
-	  <atom:link href="http://localhost:59517/front_laba2/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/front_laba2/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,15 +17,74 @@
     
     <item>
       <title>«ITMO CYCLE GIRLS»</title>
-      <link>http://localhost:59517/front_laba2/blog/main/</link>
+      <link>http://localhost:1313/front_laba2/blog/main/</link>
       <pubDate>Fri, 27 Mar 2026 16:14:11 +0300</pubDate>
       
-      <guid>http://localhost:59517/front_laba2/blog/main/</guid>
+      <guid>http://localhost:1313/front_laba2/blog/main/</guid>
       <description>
         
         
         &lt;h3&gt;Одностраничный статический сайт с формой обратной связи&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;одностраничный-статический-сайт-с-формой-обратной-связи&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%d0%be%d0%b4%d0%bd%d0%be%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%81%d0%b0%d0%b9%d1%82-%d1%81-%d1%84%d0%be%d1%80%d0%bc%d0%be%d0%b9-%d0%be%d0%b1%d1%80%d0%b0%d1%82%d0%bd%d0%be%d0%b9-%d1%81%d0%b2%d1%8f%d0%b7%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;👉 &lt;a href=&#34;http://localhost:59517/front_laba2/projects/itmo-cycle-girls/&#34;&gt;Открыть проект ITMO CYCLE GIRLS&lt;/a&gt;&lt;/p&gt;
+    &lt;a href=&#34;#%d0%be%d0%b4%d0%bd%d0%be%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%81%d0%b0%d0%b9%d1%82-%d1%81-%d1%84%d0%be%d1%80%d0%bc%d0%be%d0%b9-%d0%be%d0%b1%d1%80%d0%b0%d1%82%d0%bd%d0%be%d0%b9-%d1%81%d0%b2%d1%8f%d0%b7%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;👉 &lt;a href=&#34;http://localhost:1313/front_laba2/projects/itmo-cycle-girls/&#34;&gt;Открыть проект ITMO CYCLE GIRLS&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>«Протокол HTTP. Клиент-серверное взаимодействие»</title>
+      <link>http://localhost:1313/front_laba2/blog/laba_pro_parametry/</link>
+      <pubDate>Thu, 02 Apr 2026 16:14:11 +0300</pubDate>
+      
+      <guid>http://localhost:1313/front_laba2/blog/laba_pro_parametry/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Отчёт по лабораторной работе: Протокол HTTP. Клиент-серверное взаимодействие&lt;/h1&gt;&lt;h2&gt;Цель работы&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;цель-работы&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%86%d0%b5%d0%bb%d1%8c-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Изучить основы протокола HTTP, научиться формировать и отправлять GET и POST запросы с помощью различных инструментов (Ncat, cURL, Postman), а также получить данные от API Банка России.&lt;/p&gt;
+&lt;h2&gt;Используемые инструменты&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;используемые-инструменты&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d1%83%d0%b5%d0%bc%d1%8b%d0%b5-%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ncat&lt;/strong&gt; – утилита для ручного формирования HTTP-запросов (поддерживает SSL, входит в состав Nmap)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cURL&lt;/strong&gt; – встроенная утилита Windows 10/11 для работы с HTTP из командной строки&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Postman&lt;/strong&gt; – графический клиент для тестирования API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Банка России&lt;/strong&gt; – официальный источник курсов валют (&lt;code&gt;https://www.cbr.ru/development/sxml/&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Ход работы&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ход-работы&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%85%d0%be%d0%b4-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;GET запрос с использованием ncat (telnet не принимал HTTPS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;get-запрос-с-использованием-ncat-telnet-не-принимал-https&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#get-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81-%d1%81-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5%d0%bc-ncat-telnet-%d0%bd%d0%b5-%d0%bf%d1%80%d0%b8%d0%bd%d0%b8%d0%bc%d0%b0%d0%bb-https&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Используем публичное API meowfacts.herokuapp.com, которое возвращает случайный факт о кошках в формате JSON.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../image-3.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;POST запрос с использованием ncat&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;post-запрос-с-использованием-ncat&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#post-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81-%d1%81-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5%d0%bc-ncat&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Используем команду для подключения к ресурсу, не требующего аутентификации (во избежании ошибки 401 Unauthorized)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ncat jsonplaceholder.typicode.com 80&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Вводим POST-запрос:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;POST /api/users HTTP/1.1&lt;/li&gt;
+&lt;li&gt;Host: reqres.in&lt;/li&gt;
+&lt;li&gt;Content-Type: application/json&lt;/li&gt;
+&lt;li&gt;Content-Length: 36&lt;/li&gt;
+&lt;li&gt;{&amp;ldquo;name&amp;rdquo;: &amp;ldquo;John Doe&amp;rdquo;, &amp;ldquo;job&amp;rdquo;: &amp;ldquo;developer&amp;rdquo;}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Получаем ответ от сервера 201 Created с созданным пользователем&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../image-2.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;GET и POST запросы через cURL&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;get-и-post-запросы-через-curl&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#get-%d0%b8-post-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81%d1%8b-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-curl&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Утилита curl встроена в Windows 10/11 и позволяет отправлять запросы одной строкой&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../image.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Работа с Postman и API Банка России&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;работа-с-postman-и-api-банка-россии&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-postman-%d0%b8-api-%d0%b1%d0%b0%d0%bd%d0%ba%d0%b0-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Используем API ЦБ РФ: &lt;a href=&#34;https://www.cbr.ru/development/sxml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cbr.ru/development/sxml/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;API ЦБ РФ предоставляет курсы валют в формате XML. Для получения динамики курса доллара США за первые 10 дней марта 2025 года используем следующий URL:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/03/2025&amp;amp;date_req2=10/03/2025&amp;amp;VAL_NM_RQ=R01235&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/03/2025&amp;date_req2=10/03/2025&amp;VAL_NM_RQ=R01235&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../image-5.png&#34; alt=&#34;В этом запросе задаётся начало периода (date_req1=01/03/2025), его конец (date_req2=10/03/2025) и код валюты (VAL_NM_RQ=R01235)&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Заключение&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;заключение&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%b7%d0%b0%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;В ходе лабораторной работы я:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;освоила ручное формирование HTTP-запросов через Ncat (в том числе с SSL);&lt;/li&gt;
+&lt;li&gt;научилась использовать cURL для быстрой отправки GET и POST запросов;&lt;/li&gt;
+&lt;li&gt;приобрела навык работы с профессиональным инструментом Postman;&lt;/li&gt;
+&lt;li&gt;успешно получила актуальные курсы валют от API Банка России.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Все инструменты работают корректно, полученные ответы серверов соответствуют спецификации протокола HTTP. Полученные навыки пригодятся при разработке и тестировании веб-приложений, а также при автоматизации получения данных из открытых API.&lt;/p&gt;
 
       </description>
     </item>
