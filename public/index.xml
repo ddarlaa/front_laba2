@@ -1,17 +1,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Тестовый сервер Дарлы на Hugo – Блог</title>
-    <link>https://ddarlaa.github.io/front_laba2/</link>
+    <link>http://localhost:1313/front_laba2/</link>
     <description>Recent content in Блог on Тестовый сервер Дарлы на Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
+    <lastBuildDate>Fri, 27 Mar 2026 16:14:11 +0300</lastBuildDate>
     
-	  <atom:link href="https://ddarlaa.github.io/front_laba2/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/front_laba2/index.xml" rel="self" type="application/rss+xml" />
     
     
       
       
     
+    
+    <item>
+      <title>«ITMO CYCLE GIRLS»</title>
+      <link>http://localhost:1313/front_laba2/blog/main/</link>
+      <pubDate>Fri, 27 Mar 2026 16:14:11 +0300</pubDate>
+      
+      <guid>http://localhost:1313/front_laba2/blog/main/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;Одностраничный статический сайт с формой обратной связи&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;одностраничный-статический-сайт-с-формой-обратной-связи&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%d0%be%d0%b4%d0%bd%d0%be%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b8%d1%87%d0%bd%d1%8b%d0%b9-%d1%81%d1%82%d0%b0%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9-%d1%81%d0%b0%d0%b9%d1%82-%d1%81-%d1%84%d0%be%d1%80%d0%bc%d0%be%d0%b9-%d0%be%d0%b1%d1%80%d0%b0%d1%82%d0%bd%d0%be%d0%b9-%d1%81%d0%b2%d1%8f%d0%b7%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;👉 &lt;a href=&#34;http://localhost:1313/front_laba2/projects/itmo-cycle-girls/&#34;&gt;Открыть проект ITMO CYCLE GIRLS&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>
