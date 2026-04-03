@@ -2,18 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/front_laba2/</loc>
-    <lastmod>2026-04-03T16:14:11+03:00</lastmod>
+    <loc>https://ddarlaa.github.io/front_laba2/categories/</loc>
     <changefreq>monthly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/front_laba2/blog/main/</loc>
-    <lastmod>2026-02-27T16:14:11+03:00</lastmod>
+    <loc>https://ddarlaa.github.io/front_laba2/tags/</loc>
     <changefreq>monthly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/front_laba2/categories/</loc>
+    <loc>https://ddarlaa.github.io/front_laba2/</loc>
     <changefreq>monthly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/front_laba2/tags/</loc>
+    <loc>https://ddarlaa.github.io/front_laba2/blog/</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
