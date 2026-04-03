@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Тестовый сервер Дарлы на Hugo</title>
-    <link>https://example.org/</link>
+    <link>https://ddarlaa.github.io/front_laba2/</link>
     <description>Recent content on Тестовый сервер Дарлы на Hugo</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <lastBuildDate>Fri, 27 Feb 2026 16:14:11 +0300</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ddarlaa.github.io/front_laba2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>«Код»</title>
-      <link>https://example.org/blog/main/</link>
+      <link>https://ddarlaa.github.io/front_laba2/blog/main/</link>
       <pubDate>Fri, 27 Feb 2026 16:14:11 +0300</pubDate>
-      <guid>https://example.org/blog/main/</guid>
+      <guid>https://ddarlaa.github.io/front_laba2/blog/main/</guid>
       <description>&lt;h1 id=&#34;пианино-на-javascript-для-chrome&#34;&gt;Пианино на JavaScript для Chrome&lt;/h1&gt;&#xA;&lt;p&gt;Мы нашли &lt;a href=&#34;https://codepen.io/gabrielcarol/pen/rGeEbY&#34;&gt;готовый чужой код&lt;/a&gt; и немного его доработали, чтобы он стал проще и понятнее. В результате у нас получилось некое подобие программного пианино, сейчас покажем внутренности.&lt;/p&gt;&#xA;&lt;p&gt;Зачем? Да просто так.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://thecode.media/wp-content/uploads/2021/03/image3.png&#34; alt=&#34;Пианино на JavaScript&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;логика-работы&#34;&gt;Логика работы&lt;/h2&gt;&#xA;&lt;p&gt;Проект состоит из трёх файлов: HTML-страницы, CSS-стилей и JS-скрипта.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;HTML-страница&lt;/strong&gt; отвечает за «мясо» проекта: надписи, заголовки, подключение звуков и сборку всего проекта в одной точке. Но страница сама по себе ничего не сумеет: мы просто разместим на ней нужные блоки, а вся анимация и поведение задаются в двух других файлах.&lt;/p&gt;</description>
     </item>
   </channel>
