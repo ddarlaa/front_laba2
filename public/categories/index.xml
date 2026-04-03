@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Тестовый сервер Дарлы на Hugo</title>
-    <link>https://ddarlaa.github.io/front_laba2/categories/</link>
+    <title>Тестовый сервер Дарлы на Hugo – Categories</title>
+    <link>http://localhost:1313/front_laba2/categories/</link>
     <description>Recent content in Categories on Тестовый сервер Дарлы на Hugo</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <atom:link href="https://ddarlaa.github.io/front_laba2/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+	  <atom:link href="http://localhost:1313/front_laba2/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
   </channel>
 </rss>

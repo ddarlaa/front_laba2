@@ -1,4 +1,4 @@
-baseURL = 'https://ddarlaa.github.io/front_laba2/'
+baseURL = "https://ddarlaa.github.io/front_laba2/"
 languageCode = 'ru-ru'
 title = 'Тестовый сервер Дарлы на Hugo'
 theme = 'hextra'
@@ -23,3 +23,9 @@ theme = 'hextra'
 [sitemap]
     ## Change frequency setting (will affect posts listings layout): 'always', 'hourly', 'daily', 'weekly', 'monthly', 'yearly', 'never'
     changeFreq = 'monthly'
+
+[menu]
+  [[menu.main]]
+    name = "Блог"
+    pageRef = "/blog"
+    weight = 1
