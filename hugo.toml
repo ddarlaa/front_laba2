@@ -3,6 +3,8 @@ languageCode = 'ru-ru'
 title = 'Тестовый сервер Дарлы на Hugo'
 theme = 'hextra'
 ## markup configuration
+[params]
+  customCSS = ["css/custom.css"]
 [markup]
     [markup.highlight]
         ## Enable code fence highlighting
