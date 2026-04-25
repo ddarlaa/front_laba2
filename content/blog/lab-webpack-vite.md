@@ -22,13 +22,14 @@ tags: ["webpack", "luxon", "docker", "typescript", "vite", "github pages"]
 1. Инициализирован npm-проект, установлен `luxon` и dev-зависимости `webpack webpack-cli serve`.
 2. Создан `src/index.js` с импортом Luxon и обновлением времени каждую секунду.
 3. Создан `index.html` с подключением Bootstrap для адаптивности и крупным отображением времени (класс `display-1`).
-4. Выполнена сборка командой `npx webpack`. Результат сборки:
-<img width="974" height="145" alt="image" src="https://github.com/user-attachments/assets/d4da26e1-d42b-41c7-99fe-7e5d1b23d1b1" />
-<img width="974" height="357" alt="image" src="https://github.com/user-attachments/assets/aeead341-f2b2-49e3-9190-661fa39d924b" />
+4. Выполнена сборка командой `npx webpack`. 4. Выполнена сборка командой `npx webpack`. Результат сборки:
 
+   ![Результат сборки 1](https://github.com/user-attachments/assets/d4da26e1-d42b-41c7-99fe-7e5d1b23d1b1)
+
+   ![Результат сборки 2](https://github.com/user-attachments/assets/aeead341-f2b2-49e3-9190-661fa39d924b)
 5. Страница проверена локально через `npx serve .`. Вид в браузере:
 
-<img width="974" height="492" alt="image" src="https://github.com/user-attachments/assets/f6f5a22d-1a4b-4240-8c2b-40776c3aab21" />
+   ![Страница с часами (Webpack + Bootstrap)](https://github.com/user-attachments/assets/f6f5a22d-1a4b-4240-8c2b-40776c3aab21)
 
 
 ### Запуск в Docker
@@ -42,9 +43,9 @@ docker run -p 3000:3000 webpack-clock
 ```
 
 Результат – приложение доступно на http://localhost:3000:
-<img width="974" height="919" alt="image" src="https://github.com/user-attachments/assets/537296c4-b73e-480c-8e03-727d2fd6e0de" />
+ ![Логи сборки образа Docker]("https://github.com/user-attachments/assets/537296c4-b73e-480c-8e03-727d2fd6e0de)
 
-<img width="974" height="515" alt="image" src="https://github.com/user-attachments/assets/ee99804f-d266-4b84-be9c-3025b8bfdcfb" />
+ ![Результат сборки](https://github.com/user-attachments/assets/ee99804f-d266-4b84-be9c-3025b8bfdcfb)
 Часть 2. TypeScript + Luxon + Vite и деплой на GitHub Pages
 Цель
 Освоить связку Vite + TypeScript, автоматизировать деплой статической страницы на GitHub Pages.
