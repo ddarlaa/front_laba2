@@ -22,15 +22,14 @@ tags: ["webpack", "luxon", "docker", "typescript", "vite", "github pages"]
 1. Инициализирован npm-проект, установлен `luxon` и dev-зависимости `webpack webpack-cli serve`.
 2. Создан `src/index.js` с импортом Luxon и обновлением времени каждую секунду.
 3. Создан `index.html` с подключением Bootstrap для адаптивности и крупным отображением времени (класс `display-1`).
-4. Выполнена сборка командой `npx webpack`. 4. Выполнена сборка командой `npx webpack`. Результат сборки:
+4. Выполнена сборка командой `npx webpack`. Результат сборки:
 
    ![Результат сборки 1](https://github.com/user-attachments/assets/d4da26e1-d42b-41c7-99fe-7e5d1b23d1b1)
 
    ![Результат сборки 2](https://github.com/user-attachments/assets/aeead341-f2b2-49e3-9190-661fa39d924b)
+
 5. Страница проверена локально через `npx serve .`. Вид в браузере:
-
    ![Страница с часами (Webpack + Bootstrap)](https://github.com/user-attachments/assets/f6f5a22d-1a4b-4240-8c2b-40776c3aab21)
-
 
 ### Запуск в Docker
 
