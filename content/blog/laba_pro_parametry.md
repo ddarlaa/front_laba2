@@ -23,7 +23,7 @@ weight: 2
 
 
 
-![alt text](image-3.png)
+![alt text](pics_param/image-3.png)
 ### POST запрос с использованием ncat
 **Используем команду для подключения к ресурсу, не требующего аутентификации (во избежании ошибки 401 Unauthorized)**
 
@@ -39,12 +39,12 @@ weight: 2
   
 **Получаем ответ от сервера 201 Created с созданным пользователем**
 
-![alt text](image-2.png)
+![alt text](pics_param/image-2.png)
 
 ### GET и POST запросы через cURL 
 **Утилита curl встроена в Windows 10/11 и позволяет отправлять запросы одной строкой**
 
-![alt text](image.png)
+![alt text](pics_param/image.png)
 
 ###  Работа с Postman и API Банка России 
 Используем API ЦБ РФ: https://www.cbr.ru/development/sxml/
@@ -54,7 +54,7 @@ weight: 2
 https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/03/2025&date_req2=10/03/2025&VAL_NM_RQ=R01235
 
 
-![В этом запросе задаётся начало периода (date_req1=01/03/2025), его конец (date_req2=10/03/2025) и код валюты (VAL_NM_RQ=R01235)](image-5.png)
+![В этом запросе задаётся начало периода (date_req1=01/03/2025), его конец (date_req2=10/03/2025) и код валюты (VAL_NM_RQ=R01235)](pics_param/image-5.png)
 
 ## Заключение
 В ходе лабораторной работы я:
