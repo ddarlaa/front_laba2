@@ -52,7 +52,7 @@
 &lt;h2&gt;Ход работы&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ход-работы&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%85%d0%be%d0%b4-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;GET запрос с использованием ncat (telnet не принимал HTTPS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;get-запрос-с-использованием-ncat-telnet-не-принимал-https&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#get-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81-%d1%81-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5%d0%bc-ncat-telnet-%d0%bd%d0%b5-%d0%bf%d1%80%d0%b8%d0%bd%d0%b8%d0%bc%d0%b0%d0%bb-https&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Используем публичное API meowfacts.herokuapp.com, которое возвращает случайный факт о кошках в формате JSON.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../image-3.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_param/image-3.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;POST запрос с использованием ncat&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;post-запрос-с-использованием-ncat&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#post-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81-%d1%81-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5%d0%bc-ncat&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Используем команду для подключения к ресурсу, не требующего аутентификации (во избежании ошибки 401 Unauthorized)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -67,15 +67,15 @@
 &lt;li&gt;{&amp;ldquo;name&amp;rdquo;: &amp;ldquo;John Doe&amp;rdquo;, &amp;ldquo;job&amp;rdquo;: &amp;ldquo;developer&amp;rdquo;}&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Получаем ответ от сервера 201 Created с созданным пользователем&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../image-2.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_param/image-2.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;GET и POST запросы через cURL&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;get-и-post-запросы-через-curl&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#get-%d0%b8-post-%d0%b7%d0%b0%d0%bf%d1%80%d0%be%d1%81%d1%8b-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-curl&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Утилита curl встроена в Windows 10/11 и позволяет отправлять запросы одной строкой&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../image.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_param/image.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Работа с Postman и API Банка России&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;работа-с-postman-и-api-банка-россии&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%b0-%d1%81-postman-%d0%b8-api-%d0%b1%d0%b0%d0%bd%d0%ba%d0%b0-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Используем API ЦБ РФ: &lt;a href=&#34;https://www.cbr.ru/development/sxml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cbr.ru/development/sxml/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;API ЦБ РФ предоставляет курсы валют в формате XML. Для получения динамики курса доллара США за первые 10 дней марта 2025 года используем следующий URL:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/03/2025&amp;amp;date_req2=10/03/2025&amp;amp;VAL_NM_RQ=R01235&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=01/03/2025&amp;date_req2=10/03/2025&amp;VAL_NM_RQ=R01235&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;../image-5.png&#34; alt=&#34;В этом запросе задаётся начало периода (date_req1=01/03/2025), его конец (date_req2=10/03/2025) и код валюты (VAL_NM_RQ=R01235)&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_param/image-5.png&#34; alt=&#34;В этом запросе задаётся начало периода (date_req1=01/03/2025), его конец (date_req2=10/03/2025) и код валюты (VAL_NM_RQ=R01235)&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Заключение&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;заключение&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%b7%d0%b0%d0%ba%d0%bb%d1%8e%d1%87%d0%b5%d0%bd%d0%b8%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;В ходе лабораторной работы я:&lt;/p&gt;
 &lt;ul&gt;
@@ -111,22 +111,17 @@
 &lt;/ul&gt;
 &lt;h3&gt;Ход работы&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ход-работы&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%85%d0%be%d0%b4-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Инициализирован npm-проект, установлен &lt;code&gt;luxon&lt;/code&gt; и dev-зависимости &lt;code&gt;webpack webpack-cli serve&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Создан &lt;code&gt;src/index.js&lt;/code&gt; с импортом Luxon и обновлением времени каждую секунду.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Создан &lt;code&gt;index.html&lt;/code&gt; с подключением Bootstrap для адаптивности и крупным отображением времени (класс &lt;code&gt;display-1&lt;/code&gt;).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Выполнена сборка командой &lt;code&gt;npx webpack&lt;/code&gt;. Результат сборки:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Страница проверена локально через &lt;code&gt;npx serve .&lt;/code&gt;. Вид в браузере:&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Инициализирован npm-проект, установлен &lt;code&gt;luxon&lt;/code&gt; и dev-зависимости &lt;code&gt;webpack webpack-cli serve&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Создан &lt;code&gt;src/index.js&lt;/code&gt; с импортом Luxon и обновлением времени каждую секунду.&lt;/li&gt;
+&lt;li&gt;Создан &lt;code&gt;index.html&lt;/code&gt; с подключением Bootstrap для адаптивности и крупным отображением времени (класс &lt;code&gt;display-1&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Выполнена сборка командой &lt;code&gt;npx webpack&lt;/code&gt;. Результат сборки:&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_webpack/1.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;../pics_webpack/2.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Страница проверена локально через &lt;code&gt;npx serve .&lt;/code&gt;. Вид в браузере:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_webpack/3.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;Запуск в Docker&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;запуск-в-docker&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba-%d0%b2-docker&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Создан &lt;code&gt;Dockerfile&lt;/code&gt;.
 Сборка образа и запуск контейнера:&lt;/p&gt;
@@ -146,7 +141,9 @@ docker run -p 3000:3000 webpack-clock&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;di
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Результат – приложение доступно на http://localhost:3000&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_webpack/5.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;
+Результат – приложение доступно на http://localhost:3000
+&lt;img src=&#34;../pics_webpack/4.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Часть 2. TypeScript + Luxon + Vite и деплой на GitHub Pages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;часть-2-typescript--luxon--vite-и-деплой-на-github-pages&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%87%d0%b0%d1%81%d1%82%d1%8c-2-typescript--luxon--vite-%d0%b8-%d0%b4%d0%b5%d0%bf%d0%bb%d0%be%d0%b9-%d0%bd%d0%b0-github-pages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Цель&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;цель-1&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d1%86%d0%b5%d0%bb%d1%8c-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Освоить связку Vite + TypeScript, автоматизировать деплой статической страницы на GitHub Pages.&lt;/p&gt;
@@ -160,48 +157,13 @@ docker run -p 3000:3000 webpack-clock&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;di
 &lt;/ul&gt;
 &lt;h3&gt;Выполнение&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;выполнение&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%d0%b2%d1%8b%d0%bf%d0%be%d0%bb%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Проект создан с помощью npm init -y, установлены vite, typescript, luxon.&lt;/p&gt;
-&lt;p&gt;Настроен tsconfig.json для ESNext и Bundler-резолюции.&lt;/p&gt;
-&lt;p&gt;Компонент часов написан на TypeScript в src/main.ts:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;ts
-import { DateTime } from &amp;#34;luxon&amp;#34;;
-
-const FORMAT = &amp;#34;dd.LL.y HH:mm:ss&amp;#34;;
-const el = document.getElementById(&amp;#34;clock&amp;#34;) as HTMLHeadingElement;
-
-function tick() {
-  const now = DateTime.now();
-  el.textContent = now.toFormat(FORMAT);
-}
-
-tick();
-setInterval(tick, 1000);
-index.html с Bootstrap и модульным подключением /src/main.ts.
-vite.config.ts настроен на публикацию в поддиректорию репозитория (base) и вывод в папку docs:
-
-ts
-import { defineConfig } from &amp;#34;vite&amp;#34;;
-
-const repoName = &amp;#34;front_laba2&amp;#34;; // должно совпадать с именем репозитория
-
-export default defineConfig({
-  base: `/${repoName}/`,
-  build: { outDir: &amp;#34;docs&amp;#34; }
-});&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;После отправки кода на GitHub и настройки Pages (Source: Deploy from a branch, branch: main, folder: /docs) сработала публикация.
+&lt;p&gt;Настроен tsconfig.json для ESNext и Bundler-резолюции.
+&lt;img src=&#34;../pics_webpack/6.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;../pics_webpack/7.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_webpack/8.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;
+После отправки кода на GitHub и настройки Pages (Source: Deploy from a branch, branch: main, folder: /docs) сработала публикация.
 Финальная страница доступна по адресу: ddarlaa.github.io/time&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../pics_webpack/9.png&#34; alt=&#34;alt text&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
