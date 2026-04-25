@@ -1,0 +1,14 @@
+/* Увеличиваем отступы между блоками на главной */
+.hextra-home .hextra-hero-section {
+  margin-bottom: 3rem; /* было около 2rem */
+}
+
+/* Отступ над сеткой карточек */
+.hextra-home .hextra-feature-grid {
+  margin-top: 4rem;
+}
+
+/* Если хотите ещё больше воздуха вокруг кнопки */
+.hextra-home .hextra-hero-button {
+  margin-bottom: 2.5rem;
+}

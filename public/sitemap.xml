@@ -38,15 +38,15 @@
     <lastmod>2026-04-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/front_laba2/</loc>
-    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/front_laba2/blog/</loc>
     <lastmod>2026-04-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
   </url><url>
     <loc>http://localhost:1313/front_laba2/blog/lab-webpack-vite/</loc>
+    <lastmod>2026-04-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/front_laba2/</loc>
     <lastmod>2026-04-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
   </url><url>

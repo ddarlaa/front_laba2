@@ -4,7 +4,6 @@ title = 'Тестовый сервер Дарлы на Hugo'
 theme = 'hextra'
 ## markup configuration
 [markup]
-
     [markup.highlight]
         ## Enable code fence highlighting
         codeFences = true
@@ -28,7 +27,7 @@ theme = 'hextra'
     changeFreq = 'monthly'
 
 [menu]
-  [[menu.main]]
-    name = "Блог"
-    pageRef = "/blog"
-    weight = 1
+    [[menu.main]]
+        name = "Блог"
+        pageRef = "/blog"
+        weight = 10
